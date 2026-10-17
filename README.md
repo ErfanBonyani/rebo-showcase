@@ -18,6 +18,15 @@ Die öffentliche Verwaltungsdemo arbeitet mit getrennten Beispieldaten. Sie zeig
 | Fehlersuche | Strukturierte Diagnose, Anfragezuordnung und isolierte Integrationsprüfungen |
 | Medien | 3D-Referenzmodell, optionale GLB-Dateien je Produkt und vorbereiteter Foto-Anprobe-Ablauf |
 
+## Erweiterungen in Version 12
+
+- Schwebende Outfit-Auswahl mit konkreter Farb- und Größenvariante sowie Empfehlungen der Shop-Verwaltung.
+- Teilbare Katalogfilter für Angebote, ausgewählte Produkte und Kollektionen.
+- Entwürfe und veröffentlichte Kollektionen mit sortierbaren Produkten.
+- Pflegehinweise und Angaben zur Größe des Fotomodells im Produkteditor.
+
+Die Produktions-Builds für Sites und den unabhängigen Betrieb sowie 245 technische Prüfungen waren erfolgreich. Eine visuelle Browserprüfung der neuen Oberfläche war in dieser Arbeitsumgebung nicht verfügbar. Der Zahlungs- und Anprobe-Anschluss bleibt im unten beschriebenen Demo-Umfang.
+
 ## Technologie
 
 TypeScript, React, Vinext/Vite, Three.js, Cloudflare Workers, D1, R2 und Drizzle. Die aktuelle Demo wird über Sites bereitgestellt; das vollständige Entwicklungsprojekt liegt in einem privaten Repository.
