@@ -1,31 +1,47 @@
-# REBO — Persian Fashion Commerce
+# REBO — Shop-Anwendung und Verwaltungsdemo
 
-A fashion storefront with a cinematic visual direction, outfit composition and an approachable operations dashboard.
+**[Shop-Demo öffnen](https://rebo-boutique.nc321201.chatgpt.site)** · **[Verwaltungsdemo ohne Anmeldung](https://rebo-boutique.nc321201.chatgpt.site/admin/preview)**
 
-**[Explore the store](https://rebo-boutique.nc321201.chatgpt.site)** · **[Try the admin demo without login](https://rebo-boutique.nc321201.chatgpt.site/admin/preview)**
+Ein Mode-Shop-Projekt mit persischer RTL-Oberfläche, Produktvarianten, Outfit-Zusammenstellung und einer Verwaltung für nichttechnische Benutzer.
 
-The anonymous admin preview uses isolated sample data. You can explore product editing, reciprocal outfit suggestions, order handling, financial views and diagnostics without changing the live store. Reload resets examples.
+**Portfolio von Erfan Bonyani · Ausbildungsziel: Fachinformatiker für Anwendungsentwicklung.**
 
-## Project highlights
+## Was sich ansehen lässt
 
-| Area | Implemented work |
+Die öffentliche Verwaltungsdemo arbeitet mit getrennten Beispieldaten. Sie zeigt Produktbearbeitung, gegenseitige Outfit-Empfehlungen, Auftragsbearbeitung, Finanzansichten und Diagnose. Ein Neuladen setzt die Beispiele zurück.
+
+| Bereich | Inhalt und Lernbezug |
 | --- | --- |
-| Storefront | Persian RTL interface, cinematic home, subtle galaxy background, responsive catalogue |
-| Commerce | Product variants, guest cart, outfit builder, reciprocal manager recommendations |
-| Operations | Guided product editor, inventory ledger, roles, financial views, returns, CRM and spreadsheet tools |
-| Reliability | Structured diagnostics, request correlation, protected APIs and isolated integration checks |
-| Visual tooling | Human 3D reference, per-product GLB support and moderated photo try-on workflow |
+| Oberfläche | Responsiver Katalog, persische Rechts-nach-links-Darstellung und verständliche Formulare |
+| Geschäftslogik | Produktvarianten, Gastwarenkorb, Outfit-Zusammenstellung und wechselseitige Produktempfehlungen |
+| Verwaltung | Produkteditor, Lagerbewegungen, Rollen, Finanzansichten, Retouren und Kundenverwaltung |
+| Fehlersuche | Strukturierte Diagnose, Anfragezuordnung und isolierte Integrationsprüfungen |
+| Medien | 3D-Referenzmodell, optionale GLB-Dateien je Produkt und vorbereiteter Foto-Anprobe-Ablauf |
 
-## Technology
+## Technologie
 
-TypeScript · React · Vinext/Vite · Three.js · Cloudflare Workers · D1 · R2 · Drizzle
+TypeScript, React, Vinext/Vite, Three.js, Cloudflare Workers, D1, R2 und Drizzle. Die aktuelle Demo wird über Sites bereitgestellt; das vollständige Entwicklungsprojekt liegt in einem privaten Repository.
 
-## Honest scope
+## Meine Rolle
 
-This is a review/demo release. Real payment and SnappPay adapters, order SMS/email and a live FASHN account are not connected. Automatic exact rotatable 3D garments from product photos are not implemented. The try-on workflow produces images and its provider tests use mocked responses. Demonstration assets and prices are not a real inventory catalogue.
+Anforderungen und Abläufe für Shop und Verwaltung ausarbeiten, Funktionen praktisch prüfen, Korrekturen beschreiben und die Bereitstellung begleiten. Implementierung und Dokumentation erfolgten mit KI-gestützten Werkzeugen. Die Fallstudie beschreibt das Projekt, ohne eine vollständig selbstständige Implementierung jeder Funktion zu behaupten.
 
-The full product source is kept in a separate private development repository. This public repository contains the case study, not customer data or production credentials. Current demo hosting remains on Sites; an independent Cloudflare deployment is documented in the private source.
+## Klarer Demo-Umfang
+
+- Kein angeschlossener echter Zahlungsanbieter oder SnappPay-Zahlungsfluss.
+- Auftrags-SMS und E-Mails sind nicht eingerichtet.
+- Ein aktives FASHN-Konto ist nicht konfiguriert; Anbietertests verwenden simulierte Antworten.
+- Aus Produktfotos entstehen keine automatisch rekonstruierten, exakt drehbaren 3D-Kleidungsstücke. Der vorbereitete Anprobe-Ablauf erzeugt Bilder.
+- Medien, Preise und Bestände sind Demonstrationsdaten und kein echter Warenbestand.
+
+Dieses öffentliche Repository enthält die Projektbeschreibung, keine Kundendaten, Produktionsschlüssel oder vollständige Anwendung. Es ist eine Portfolio-Präsentation, keine Freigabe des privaten Shop-Codes.
+
+## English summary
+
+A Persian RTL fashion-commerce demo with product variants, an outfit builder and an isolated anonymous admin preview. Real payments, order notifications and a live photo try-on provider are not connected. Development used AI-assisted tools; source code remains private.
 
 ## فارسی
 
-ریبو یک پروژهٔ فروشگاه پوشاک با رابط فارسی، ساخت ست و پنل مدیریت ساده برای کاربر غیرمتخصص است. لینک‌های بالا برای بررسی فروشگاه و پنل نمونه بدون ورود هستند. نسخهٔ کد کامل خصوصی نگهداری می‌شود؛ این مخزن برای ارائهٔ نمونه‌کار به کارفرماست. امکانات باقی‌مانده صریحاً در همین معرفی ذکر شده‌اند.
+ریبو نمونه‌کار فروشگاه پوشاک با رابط فارسی و پنل مدیریت است. لینک‌های بالا فروشگاه و پنل نمونه با دادهٔ آزمایشی را نشان می‌دهند. کد کامل خصوصی است و محدودیت‌های نسخهٔ نمایشی در همین صفحه مشخص شده‌اند.
+
+**[پروفایل / Profil](https://github.com/ErfanBonyani)** · **[E-Mail](mailto:erfan.bonyaniapp@gmail.com)**
