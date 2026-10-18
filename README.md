@@ -27,6 +27,10 @@ Die öffentliche Verwaltungsdemo arbeitet mit getrennten Beispieldaten. Sie zeig
 
 Die Produktions-Builds für Sites und den unabhängigen Betrieb sowie 245 technische Prüfungen waren erfolgreich. Eine visuelle Browserprüfung der neuen Oberfläche war in dieser Arbeitsumgebung nicht verfügbar. Der Zahlungs- und Anprobe-Anschluss bleibt im unten beschriebenen Demo-Umfang.
 
+## Erweiterung in Version 13
+
+Mehrere Kleidungsstücke bleiben gleichzeitig im Outfit: beispielsweise T-Shirt, Hemd, Hoodie und Jacke mit Hose und Schuhen. Varianten, Kauf-Auswahl, Entfernen und Reihenfolge werden je Produkt verwaltet; ältere lokale Entwürfe bleiben erhalten. 257 technische Prüfungen und beide Produktions-Builds waren erfolgreich. Exakte 3D-Schichten benötigen passende Kleidungsmodelle; eine Stoff-Kollisionssimulation ist nicht enthalten.
+
 ## Technologie
 
 TypeScript, React, Vinext/Vite, Three.js, Cloudflare Workers, D1, R2 und Drizzle. Die aktuelle Demo wird über Sites bereitgestellt; das vollständige Entwicklungsprojekt liegt in einem privaten Repository.
